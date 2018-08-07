@@ -1,4 +1,4 @@
-from django.db import models
+from HRIT.models import Department
 
 class DepartmentView(TemplateView):
     """[summary]
