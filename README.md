@@ -6,7 +6,6 @@
 
 
 ![Employee ERD](https://raw.githubusercontent.com/Hypnotic-Herons/bangazon-api/master/Screen%20Shot%202018-07-24%20at%2010.50.31%20AM.png)
-![Customer ERD](https://raw.githubusercontent.com/Hypnotic-Herons/bangazon-api/master/Screen%20Shot%202018-07-24%20at%2010.52.22%20AM.png)
 
 
 ## REQUIREMENTS
