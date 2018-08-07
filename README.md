@@ -5,8 +5,7 @@
 ### [NSS](http://nashvillesoftwareschool.com/) Cohort D25
 
 
-![Employee ERD](https://github.com/Hypnotic-Herons/Sprint-2/blob/master/Sprint%202%20ERD.jpgt2/Sprint-2/Sprint2ERD.png)
-
+![Employee ERD](https://github.com/Hypnotic-Herons/Sprint-2/blob/master/Sprint2ERD.png?raw=true)
 
 ## REQUIREMENTS
 1. Using Django framework application, you will be building the initial, open API for a company internal processes website.
