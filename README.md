@@ -1,4 +1,4 @@
-# Bangazon API
+# Sprint 2
 - The goal of this project is to structure access for workplace management. 
 
 
@@ -9,17 +9,13 @@
 
 
 ## REQUIREMENTS
-1. Use the open API for Bangazon.
-2. Expose the following resources in your program:
-    1. Customer
-    2. Order
-    3. Product
-    4. Department
-    5. Computer
-    6. Training Program
-    7. Product Type
-    8. Payment Type
-    9. Employee
+1. Using Django framework application, you will be building the initial, open API for a company internal processes website.
+2. Expose the following resources in your API.
+
+    1. Employee
+    2. Department
+    3. Computer
+    4. Training Program
 
 The initial version is for internal consumption only, so do not require permissions to access, or manipulate, any resources.
 
