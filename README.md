@@ -1,12 +1,11 @@
 # Sprint 2
-- The goal of this project is to structure access for workplace management. 
+- The goal of this project is to structure access for workplace management.
 
 
 ### [NSS](http://nashvillesoftwareschool.com/) Cohort D25
 
 
-![Employee ERD](https://raw.githubusercontent.com/Hypnotic-Herons/bangazon-api/master/Screen%20Shot%202018-07-24%20at%2010.50.31%20AM.png)
-
+![Employee ERD](https://github.com/Hypnotic-Herons/Sprint-2/blob/master/Sprint2ERD.png?raw=true)
 
 ## REQUIREMENTS
 1. Using Django framework application, you will be building the initial, open API for a company internal processes website.
