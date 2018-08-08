@@ -1,0 +1,15 @@
+{% extends 'HRIT/base.html' %}
+
+{% block content %}
+	<h1>Employee List<small><a href="">Create Employee</a></small></h1>
+	<hr>
+	{% for employee in employees %}
+	<div class="row">
+        <ul>
+            <li>{{ employee.name }}</li>
+        </ul>
+	</div>
+	<hr>
+
+	{% endfor %}
+{% endblock content %}
