@@ -1,4 +1,5 @@
 from HRIT.models import Employee
+from django.views.generic import TemplateView
 
 class EmployeeView(TemplateView):
 	'''
