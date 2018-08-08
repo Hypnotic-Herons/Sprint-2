@@ -1,4 +1,5 @@
 from HRIT.models import Department
+from django.views.generic import TemplateView
 
 class DepartmentView(TemplateView):
     """[summary]
