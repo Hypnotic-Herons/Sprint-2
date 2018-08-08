@@ -8,7 +8,7 @@ class Training_Program(models.Model):
 	"""
 	startDate = models.DateTimeField(auto_now=False, auto_now_add=False)
 	endDate = models.DateTimeField(auto_now=False, auto_now_add=False)
-	maxAttendees = model.IntegerField(null=True, blank=True)
+	maxAttendees = models.IntegerField(null=True, blank=True)
 	name = models.CharField(max_length = 50)
 	description = models.CharField(max_length = 100)
 
