@@ -3,13 +3,13 @@
 {% block content %}
 	<h1>Employee List<small><a href="">Create Employee</a></small></h1>
 	<hr>
-	{% for employee in employees %}
 	<div class="row">
-        <ul>
-            <li>{{ employee.name }}</li>
+		<ul>
+			{% for employee in view.employee_list %}
+			<li>{{ employee.first_name}} {{employee.last_name}}</li>
+			{% endfor %}
         </ul>
 	</div>
 	<hr>
 
-	{% endfor %}
 {% endblock content %}
