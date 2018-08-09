@@ -16,4 +16,4 @@ class Training_Program(models.Model):
 		return f'{self.name}'
 
 	class Meta:
-		db_table = "training_program"
+		db_table = "training_programs"

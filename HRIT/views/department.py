@@ -1,7 +1,7 @@
 from HRIT.models import Department
 from django.views.generic import TemplateView
 
-class DepartmentView(TemplateView):
+class Department_List_View(TemplateView):
     """[summary]
     API endpoint that allows departments to be viewed and edited.
     """
