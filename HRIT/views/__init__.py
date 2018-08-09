@@ -1,3 +1,3 @@
 from .computer_list import Computer_List
-from .employee import EmployeeView
+from .employee_list import EmployeeView
 from .department import DepartmentView

@@ -5,7 +5,7 @@ class EmployeeView(TemplateView):
 	'''
 		Returns a list of all the employees
 	'''
-	template_name = 'HRIT/employees.html'
+	template_name = 'HRIT/employee_list.html'
 
 	def employee_list(self):
 		employees = Employee.objects.all()
