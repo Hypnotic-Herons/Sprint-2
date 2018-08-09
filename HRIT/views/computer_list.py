@@ -6,8 +6,8 @@ class Computer_List(TemplateView):
 	Authors: Dillan Teagle
 	Purpose: Create Computer List View
 	"""
-	template_name = 'HRIT/computers.html'
+	template_name = 'HRIT/computers_list.html'
 
-	def customer_list(self):
+	def computer_list(self):
 		computers = Computer.objects.all()
 		return computers
