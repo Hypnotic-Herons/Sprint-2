@@ -8,6 +8,6 @@ class Computer_List(TemplateView):
 	"""
 	template_name = 'HRIT/computers.html'
 
-	def customer_list(self):
+	def computer_list(self):
 		computers = Computer.objects.all()
 		return computers
