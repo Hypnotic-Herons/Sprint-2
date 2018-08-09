@@ -6,7 +6,7 @@ class Training_Program_List_View(TemplateView):
         Author: Jessica Swift
 		Returns a list of all the training programs
 	'''
-	template_name = 'HRIT/trainingprogram.html'
+	template_name = 'HRIT/trainingprogram_list.html'
 
 	def training_list(self):
 		training_programs = Training_Program.objects.all()
