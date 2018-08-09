@@ -10,6 +10,9 @@ class Employee(models.Model):
 	training_programs = models.ManyToManyField('Training_Program', blank=True, null=True)
 	computers = models.ManyToManyField('Computer', blank=True, null=True)
 
+	def get_absolute_url(self):
+		return reverse('HRIT:employee_detail', kwargs={'pk': self.pk})
+
 	def __str__(self):
 		return (f'{self.first_name} {self.last_name}')
 
