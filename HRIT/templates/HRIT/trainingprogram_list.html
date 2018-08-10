@@ -1,0 +1,15 @@
+{% extends 'HRIT/base.html' %}
+
+{% block content %}
+	<h1>Training Program List<small><a href="">Create Training Program</a></small></h1>
+	<hr>
+	<div class="row">
+		<ul>
+			{% for training_programs in view.training_list %}
+			<li>{{ training_programs.name}} {{training_programs.startDate}} {{training_programs.description}}</li>
+			{% endfor %}
+        </ul>
+	</div>
+	<hr>
+
+{% endblock content %}
