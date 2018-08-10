@@ -1,0 +1,28 @@
+{% extends 'HRIT/base.html' %}
+
+{% block content %}
+<h1>Employee Detail</h1>
+<hr>
+<div class="row">
+        <h2>Name: {{employee.first_name}} {{employee.last_name}}</h2>
+        <h3>Department: {{employee.department_name}}</h3>
+</div>
+<div class="row">
+        <h3>Assigned Computer:</h3>
+        {% for comp in employee.computers.all %}
+        <ul>
+            <li>{{comp.manufacturer}}, {{comp.make}}</li>
+        </ul>
+        {% endfor %}
+</div>
+<div class="row">
+        <h3>Training Programs:</h3>
+        {% for program in employee.training_programs.all %}
+        <ul>
+            <li>{{program.name}}</li>
+        </ul>
+        {% endfor %}
+</div>
+
+
+{% endblock content %}

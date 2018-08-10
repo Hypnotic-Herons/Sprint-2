@@ -6,7 +6,7 @@
 	<div class="row">
 		<ul>
 			{% for employee in view.employee_list %}
-			<li>{{ employee.first_name}} {{employee.last_name}}</li>
+			<li><a href="{% url 'HRIT:employee_detail' employee.id %}">{{ employee.first_name}} {{employee.last_name}}</a></li>
 			{% endfor %}
         </ul>
 	</div>
