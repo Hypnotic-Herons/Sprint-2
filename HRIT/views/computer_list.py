@@ -1,13 +1,10 @@
 from HRIT.models import Computer
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, ListView
 
-class Computer_List(TemplateView):
-	"""
-	Authors: Dillan Teagle
+
+class Computer_List(ListView):
+	"""Authors: Dillan Teagle
 	Purpose: Create Computer List View
 	"""
-	template_name = 'HRIT/computers_list.html'
-
-	def computer_list(self):
-		computers = Computer.objects.all()
-		return computers
+	model = Computer
+	context_object_name = 'computer_list'
