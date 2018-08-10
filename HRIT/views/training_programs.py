@@ -1,14 +1,11 @@
 from HRIT.models import Training_Program
-from django.views.generic import TemplateView
+from django.views.generic import ListView
 
-class Training_Program_List_View(TemplateView):
+class Training_Program_List_View(ListView):
 	'''
         Author: Jessica Swift
 		Returns a list of all the training programs
 	'''
-	template_name = 'HRIT/trainingprogram_list.html'
+	model = Training_Program
+	context_object_name = 'trainingprograms'
 
-	def training_list(self):
-		training_programs = Training_Program.objects.all()
-		print(training_programs)
-		return training_programs
