@@ -1,0 +1,15 @@
+{% extends 'HRIT/base.html' %}
+
+{% block content %}
+	<h1>Department List<small><a href="{% url 'HRIT:department_form' %}">Create Department</a></small></h1>
+	<hr>
+	<div class="row">
+		<ul>
+			{% for department in view.department_list %}
+			<li><a href="{% url 'HRIT:department_detail' department.id %}">{{ department.name }}</a></li>
+			{% endfor %}
+        </ul>
+	</div>
+	<hr>
+
+{% endblock content %}
