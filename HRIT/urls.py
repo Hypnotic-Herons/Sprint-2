@@ -15,5 +15,5 @@ urlpatterns = [
 
     path('trainingprograms/', Training_Program_List_View.as_view(), name='trainingprograms'),
     path('trainingprograms/<int:pk>/', Training_Program_List_View.as_view(), name='trainingprogram_detail'),
-    path('trainingprograms/add/', Training_Program_Form_View.as_view(), name='training_program_form')
+    path('trainingprograms/add/', Training_Program_Form_View.as_view(), name='new_training')
 ]

@@ -1,7 +1,8 @@
 {% extends 'HRIT/base.html' %}
 
 {% block content %}
-	<h1>Training Program List<small><a href="">Create Training Program</a></small></h1>
+	<h1>Training Program List</h1>
+	<a href="{% url 'HRIT:new_training' %}">Create Training Program</a>
 	<hr>
 	<div class="row">
 		<ul>
