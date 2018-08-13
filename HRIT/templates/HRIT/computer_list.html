@@ -6,7 +6,7 @@
 	<div class="row">
 		<ul>
 			{% for computer in computer_list %}
-			<li>{{ computer.make}} {{computer.manufacturer}}</li>
+			<li><a href="{% url 'HRIT:computer_detail' computer.id %}">{{computer.make}} {{computer.manufacturer}} </a></li>
 			{% endfor %}
         </ul>
 	</div>
