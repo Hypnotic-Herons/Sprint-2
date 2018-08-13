@@ -1,8 +1,7 @@
 {% extends 'HRIT/base.html' %}
 
 {% block content %}
-	<h1>Employee List<small><a href="">Create Employee</a></small></h1>
-	<button class="btn btn-default btn-success"><a href="{% url 'HRIT:employee_form' %}">Create Employee</a></button>
+	<h1>Employee List<small><a href="{% url 'HRIT:employee_form' %}">Create Employee</a></small></h1>
 	<hr>
 	<div class="row">
 		<ul>
