@@ -5,7 +5,7 @@
 	<hr>
 	<div class="row">
 		<ul>
-			{% for training_programs in view.training_list %}
+			{% for training_programs in trainingprograms %}
 			<li>{{ training_programs.name}} {{training_programs.startDate}} {{training_programs.description}}</li>
 			{% endfor %}
         </ul>

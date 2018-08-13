@@ -8,4 +8,3 @@ class Training_Program_List_View(ListView):
 	'''
 	model = Training_Program
 	context_object_name = 'trainingprograms'
-
