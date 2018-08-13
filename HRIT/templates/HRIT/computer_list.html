@@ -1,7 +1,7 @@
 {% extends 'HRIT/base.html' %}
 
 {% block content %}
-	<h1>Computer List<small><a href="">Add a Computer</a></small></h1>
+	<h1>Computer List<small><a href="{% url 'HRIT:computer_form' %}">Add a Computer</a></small></h1>
 	<hr>
 	<div class="row">
 		<ul>
