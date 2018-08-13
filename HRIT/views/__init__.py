@@ -7,3 +7,4 @@ from .add_training_program_view import Training_Program_Form_View
 from .employee_detail import Employee_Detail_View
 from .add_employee_view import EmployeeFormView
 from .add_employee_view import Employee_Delete
+from .add_computer_view import ComputerFormView

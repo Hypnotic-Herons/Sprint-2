@@ -1,5 +1,6 @@
 from django import forms
 from HRIT.models import Employee
+from HRIT.models import Computer
 
 from HRIT.models import Training_Program
 
@@ -18,6 +19,7 @@ class EmployeeForm(forms.ModelForm):
 
 
 
+
 class Training_Program_Form(forms.ModelForm):
     """
     Training Program Form
@@ -27,3 +29,10 @@ class Training_Program_Form(forms.ModelForm):
     class Meta:
         model = Training_Program
         fields = ('startDate', 'endDate', 'maxAttendees', 'description')
+
+class ComputerForm(forms.ModelForm):
+
+    class Meta:
+        model = Computer
+        fields = ('make', 'manufacturer', 'purchase_date')
+

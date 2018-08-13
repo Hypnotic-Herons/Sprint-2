@@ -1,0 +1,11 @@
+{% extends 'HRIT/base.html' %}
+
+{% block content %}
+
+    <form method='post'>
+        {% csrf_token %}
+        {{ form }}
+    <input type="submit" value="Create Computer">
+  </form>
+
+{% endblock content %}
