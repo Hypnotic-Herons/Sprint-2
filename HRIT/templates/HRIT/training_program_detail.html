@@ -1,0 +1,18 @@
+{% extends 'HRIT/base.html' %}
+
+{% block content %}
+<h1>Training Program Detail</h1>
+<hr>
+<div class="row">
+        <h2>Date: {{training_programs.startDate}} {{training_programs.endDate}}</h2>
+</div>
+<div class="row">
+        <h3>Max Attendees</h3>
+        <p>Quantity: {{training_programs.maxAttendees}}</p>
+</div>
+<div class="row">
+        <h3>Description: {{training_programs.description}}</h3>
+        
+</div>
+
+{% endblock content %}
