@@ -1,7 +1,7 @@
 {% extends 'HRIT/base.html' %}
 
 {% block content %}
-	<h1>Department List<small><a href="">Create Department</a></small></h1>
+	<h1>Department List<small><a href="{% url 'HRIT:department_form' %}">Create Department</a></small></h1>
 	<hr>
 	<div class="row">
 		<ul>
